@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+//function with arguments and without return value
+
+void info(){
+int age ;
+float height;
+  
+    printf("\n Enter Your Age: \n");
+    
+    scanf("%d",&age);
+    printf("Your Age is : %d\n",age);
+  
+    printf("\n Enter YOur Height: \n");
+    
+    scanf("%f",&height);
+    printf("Your Height is : %f\n",height);
+}
+
+int main(){
+ 
+
+    //calling Function...
+    info();
+
+    return 0;
+}

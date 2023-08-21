@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int bmi(int weight, float height){
+
+  int BMI = weight/(height*height);
+
+  return BMI;
+  
+}
+
+
+int main(){
+    printf("%d\n",bmi(59.99,1.58));
+  
+  return 0;
+}

@@ -1,0 +1,45 @@
+#include<stdio.h>
+
+int BMI(){
+int weight;
+float height;
+  
+  printf(" Enter Your Weight: \n");
+  scanf("%d",&weight);
+  
+  printf(" Enter Your Height: \n");
+  scanf("%f",&height);
+  int BMI = weight/(height*height);
+
+    printf(" Your BMI is %d\n", BMI);
+
+   if(BMI < 19) {
+     printf("Your BMI category is: Underweight."); 
+  }else{
+  
+   if(BMI < 25){
+     printf("Your BMI category is: Ideal. "); 
+  }else{
+  
+     if(BMI < 30) {
+     printf("Your BMI category is: Overweight."); 
+  }else{
+ 
+     printf("Your BMI category is: Obesity."); 
+  }
+  }
+  }
+  
+  }
+  
+
+int main(){
+  BMI();
+  return 0;
+}
+
+BMI Categories:
+Underweight = <18.5
+Normal weight = 18.5–24.9
+Overweight = 25–29.9
+Obesity = BMI of 30 or greater

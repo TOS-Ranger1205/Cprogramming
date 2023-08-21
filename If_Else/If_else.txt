@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+  int number1;
+  int number2;
+  number1 = 900;
+  number2 = 100;
+
+  if(number1 < number2){
+   
+    printf("number 1 is smallest...");
+  }else{
+   
+    printf("number 1 is not smallest...");
+  }
+
+  

@@ -1,0 +1,20 @@
+int main(void) {
+  int number1;
+  int number2;
+  int number3;
+  
+  number1 = 900;
+  number2 = 300;
+  number3 = 600;
+
+  if(number1 < number2 & number1 < number3 ){
+    printf("number 1 is smallest...");
+  }else{
+
+  if(number2 < number3 & number2 < number1){
+  printf("number 2 is smallest...");
+  }else{
+    printf("number 3 is smallest...");
+      }
+  }
+}

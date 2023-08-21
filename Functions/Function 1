@@ -1,0 +1,18 @@
+//function without arguments and without return value
+#include <stdio.h>
+
+void Website(){
+  printf("This Is Kush\n");
+  printf("And This Is Patel\n");
+}
+
+
+
+
+int main(){
+    //calling Function.....
+    Website();
+    Website();
+  
+     return 0;
+}

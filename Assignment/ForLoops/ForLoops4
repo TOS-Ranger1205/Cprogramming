@@ -1,0 +1,26 @@
+4. Write a  Program to Reverse a Number
+   
+      Enter Number : 4569
+      Reverse Number : 9654 
+
+
+Answer:
+
+#include <stdio.h>
+
+
+int main(){
+
+int num, reverse=0, remainder;
+  printf("Enter An Integer= ");
+  scanf("%d\n",&num);
+
+  while(num != 0){
+    remainder= num%10;
+    reverse= reverse*10 + remainder;
+    num/=10;
+  }
+
+  printf("Reverse Of your Given Number is :%d",reverse );
+  return 0;
+}
