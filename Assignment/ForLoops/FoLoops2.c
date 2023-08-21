@@ -1,4 +1,4 @@
-Question: Write a Program to Generate Multiplication Table ?
+/*Question: Write a Program to Generate Multiplication Table ?
 Enter print Table Number : 2
 
 2 x 1  = 2
@@ -7,8 +7,9 @@ Enter print Table Number : 2
 .
 2 x 10 = 20
 
-
 Answer:
+*/
+
 #include<stdio.h>
 
 int main(void) {
@@ -23,9 +24,9 @@ int main(void) {
 }
 
 
-
-********
+/*********
 Another solution:
+
 #include<stdio.h>
 int main(){
 
@@ -48,5 +49,4 @@ int main(){
     return 0;
 }
 
-
-***********
+*/
