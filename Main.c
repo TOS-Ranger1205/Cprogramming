@@ -1,18 +1,30 @@
-#include <stdio.h>
-
+#include<stdio.h>
 
 int main(){
 
-int num, reverse=0, remainder;
-  printf("Enter An Integer= ");
-  scanf("%d",&num);
+    int data[9];
 
-  while(num != 0){
-    remainder= num%10;
-    reverse= reverse*10 + remainder;
-    num/=10;
-  }
+    // store data into array 
 
-  printf("Reverse Of your Given Number is : %d",reverse);
-  return 0;
+    data[0] = 23;
+    data[1] = 90;
+    data[2] = 8;
+    data[3] = 88;
+    data[4] = 88;
+    data[5] = 88;
+    data[6] = 88;
+    data[7] = 88;
+    data[8] = 88;
+
+    // access data 
+
+    //printf("%d",data[1]);
+
+    for (size_t i = 0; i < 9; i++)
+    {
+        printf("%d\n",data[i]);
+    }
+    
+
+    return 0;
 }
