@@ -8,7 +8,7 @@ Enter print Table Number : 2
 2 x 10 = 20
 
 Answer:
-*/
+
 
 #include<stdio.h>
 
@@ -24,8 +24,7 @@ int main(void) {
 }
 
 
-/*********
-Another solution:
+Another solution:*/
 
 #include<stdio.h>
 int main(){
@@ -49,4 +48,3 @@ int main(){
     return 0;
 }
 
-*/
