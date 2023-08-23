@@ -5,7 +5,7 @@ int main(){
 
 int num, reverse=0, remainder;
   printf("Enter An Integer= ");
-  scanf("%d\n",&num);
+  scanf("%d",&num);
 
   while(num != 0){
     remainder= num%10;
@@ -13,6 +13,6 @@ int num, reverse=0, remainder;
     num/=10;
   }
 
-  printf("Reverse Of your Given Number is :%d",reverse );
+  printf("Reverse Of your Given Number is : %d",reverse);
   return 0;
 }
