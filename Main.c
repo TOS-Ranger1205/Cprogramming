@@ -8,7 +8,7 @@ int main(){
 
     data[0] = 23;
     data[1] = 90;
-    data[2] = 8;
+    data[2] = 18;
     data[3] = 54;
     data[4] = 65;
     data[5] = 83;
@@ -21,6 +21,10 @@ int main(){
 
     for (size_t i = 0; i < 9; i++)
     {
+      if (data)
+      {
+        /* code */
+      }
       
         printf("%d\n",data[i]);
     }
