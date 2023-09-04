@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "fibonacci series": "c"
+        "fibonacci series": "c",
+        "pyramid": "c"
     }
 }

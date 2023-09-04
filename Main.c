@@ -1,17 +1,18 @@
 #include<stdio.h>    
 int main()    
 {    
- int n1=0,n2=1,n3,i,number;    
+  int num1=0,num2=1,num3,i,number;    
   printf("Enter the number of elements:");    
   scanf("%d",&number); 
    
- printf("\n%d %d",n1,n2);
- for(i=2;i<number;++i)//loop starts from 2 because 0 and 1 are already printed    
+ printf("%d %d\n",num1,num2);
+ for(i=2;i<number;i++) 
  {    
-  n3=n1+n2;    
-  printf(" %d",n3);    
-  n1=n2;    
-  n2=n3;    
+  num3=num1+num2;
+  printf("%d\n",num3);    
+  num1=num2;    
+  num2=num3;
+  
  }  
   return 0;  
  }    
