@@ -1,19 +1,28 @@
-#include<stdio.h>    
-int main()    
-{    
-  int num1=0,num2=1,num3,i,number;    
-  printf("Enter the number of elements:");    
-  scanf("%d",&number); 
-   
- printf("%d %d\n",num1,num2);
- for(i=2;i<number;i++) 
- {    
-  num3=num1+num2;
-  printf("%d\n",num3);    
-  num1=num2;    
-  num2=num3;
-  
- }  
-  return 0;  
- }    
+#include <stdio.h>
 
+int main(void) {
+  int number1;
+  int number2;
+  int number3;
+    // take user input 
+  printf("Enter Number 1 \n");
+  scanf("%d",&number1);
+  printf("Enter Number 2 \n");
+  scanf("%d",&number2);
+  printf("Enter Number 3 \n");
+  scanf("%d",&number3);
+  
+  if(number1 < number2 && number1 < number3){
+    printf("Number 1 is smallest ....");
+  }else{
+
+      if(number2 < number3 && number2 < number1){
+         printf("Number 2 is smallest ....");
+      }else{
+        printf("Number 3 is smallest ....");
+      }
+    
+  }
+
+  return 0;
+}
