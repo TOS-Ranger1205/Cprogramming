@@ -16,8 +16,9 @@ int ac(int num){
   if (num<=5)
   {
     printf("%d,",num);
-    num++;
     
+    num++;
+
     return ac(num);
   }
   else{
